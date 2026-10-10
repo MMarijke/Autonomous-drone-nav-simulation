@@ -1,0 +1,29 @@
+18:30:59 | INFO    | evaluate | astar         easy   n=100 | success 100% (CI 96-100) | collision 0% | timeout 0% | eff 1.00 | 1.31 ms/step
+18:31:21 | INFO    | evaluate | astar         medium n=100 | success 97% (CI 92-99) | collision 3% | timeout 0% | eff 0.99 | 0.80 ms/step
+18:31:47 | INFO    | evaluate | astar         hard   n=100 | success 92% (CI 85-96) | collision 8% | timeout 0% | eff 0.98 | 0.82 ms/step
+18:32:13 | INFO    | evaluate | astar_oracle  easy   n=100 | success 100% (CI 96-100) | collision 0% | timeout 0% | eff 1.00 | 0.90 ms/step
+18:33:11 | INFO    | evaluate | astar_oracle  medium n=100 | success 97% (CI 92-99) | collision 3% | timeout 0% | eff 1.00 | 3.09 ms/step
+18:34:24 | INFO    | evaluate | astar_oracle  hard   n=100 | success 96% (CI 90-98) | collision 4% | timeout 0% | eff 0.99 | 4.19 ms/step
+18:34:40 | INFO    | evaluate | rl            easy   n=100 | success 89% (CI 81-94) | collision 11% | timeout 0% | eff 0.92 | 0.49 ms/step
+18:35:16 | INFO    | evaluate | rl            medium n=100 | success 74% (CI 65-82) | collision 26% | timeout 0% | eff 0.91 | 0.90 ms/step
+18:35:49 | INFO    | evaluate | rl            hard   n=100 | success 68% (CI 58-76) | collision 31% | timeout 1% | eff 0.92 | 0.69 ms/step
+18:36:17 | INFO    | evaluate | hybrid        easy   n=100 | success 77% (CI 68-84) | collision 20% | timeout 3% | eff 0.96 | 0.96 ms/step
+18:37:11 | INFO    | evaluate | hybrid        medium n=100 | success 67% (CI 57-75) | collision 30% | timeout 3% | eff 0.96 | 1.57 ms/step
+18:38:02 | INFO    | evaluate | hybrid        hard   n=100 | success 58% (CI 48-67) | collision 41% | timeout 1% | eff 0.95 | 1.43 ms/step
+18:38:02 | INFO    | evaluate | 
+| scenario | agent | n | success | collision | timeout | path eff. | time-to-goal (s) | min clearance (m) | near-miss | ms/step |
+|---|---|---|---|---|---|---|---|---|---|---|
+| easy | A* (sensed) | 100 | 100% [96-100] | 0% | 0% | 1.00 | 10.3 | 0.92 | 11% | 1.31 |
+| easy | A* (oracle perception) | 100 | 100% [96-100] | 0% | 0% | 1.00 | 10.3 | 0.92 | 11% | 0.90 |
+| easy | DQN end-to-end | 100 | 89% [81-94] | 11% | 0% | 0.92 | 12.4 | 0.69 | 44% | 0.49 |
+| easy | A* + DQN hybrid | 100 | 77% [68-84] | 20% | 3% | 0.96 | 12.1 | 0.60 | 50% | 0.96 |
+| medium | A* (sensed) | 100 | 97% [92-99] | 3% | 0% | 0.99 | 10.8 | 0.58 | 41% | 0.80 |
+| medium | A* (oracle perception) | 100 | 97% [92-99] | 3% | 0% | 1.00 | 10.6 | 0.63 | 33% | 3.09 |
+| medium | DQN end-to-end | 100 | 74% [65-82] | 26% | 0% | 0.91 | 12.9 | 0.39 | 63% | 0.90 |
+| medium | A* + DQN hybrid | 100 | 67% [57-75] | 30% | 3% | 0.96 | 12.2 | 0.34 | 71% | 1.57 |
+| hard | A* (sensed) | 100 | 92% [85-96] | 8% | 0% | 0.98 | 11.5 | 0.44 | 57% | 0.82 |
+| hard | A* (oracle perception) | 100 | 96% [90-98] | 4% | 0% | 0.99 | 11.2 | 0.55 | 45% | 4.19 |
+| hard | DQN end-to-end | 100 | 68% [58-76] | 31% | 1% | 0.92 | 13.6 | 0.24 | 78% | 0.69 |
+| hard | A* + DQN hybrid | 100 | 58% [48-67] | 41% | 1% | 0.95 | 13.5 | 0.17 | 85% | 1.43 |
+
+18:38:02 | INFO    | evaluate | wrote results to runs/eval_v1

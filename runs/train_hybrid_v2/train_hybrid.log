@@ -1,0 +1,66 @@
+18:38:32 | INFO    | train_hybrid | run directory: runs/train_hybrid_v2
+18:38:33 | INFO    | train_hybrid | training hybrid | obs_dim=60 actions=19 steps=300000 params=149780
+18:39:25 | INFO    | train_hybrid | step   15316 | ep    50 | succ 0.00 coll 0.48 tout 0.52 | ret  -18.0 | eps 0.90 diff 0.09 | loss 0.0011 q 0.43 | 297 sps
+18:40:02 | INFO    | train_hybrid | EVAL @20000 (medium x40): success 0.05 collision 0.78 timeout 0.17 eff 0.89
+18:40:02 | INFO    | train_hybrid |   new best checkpoint (step 20000)
+18:40:46 | INFO    | train_hybrid | step   29458 | ep   100 | succ 0.00 coll 0.50 tout 0.50 | ret  -13.8 | eps 0.81 diff 0.16 | loss 0.0057 q 1.10 | 221 sps
+18:41:52 | INFO    | train_hybrid | EVAL @40000 (medium x40): success 0.00 collision 0.82 timeout 0.17 eff nan
+18:41:55 | INFO    | train_hybrid | step   40430 | ep   150 | succ 0.00 coll 0.64 tout 0.36 | ret  -15.0 | eps 0.74 diff 0.22 | loss 0.0269 q 2.48 | 201 sps
+18:42:44 | INFO    | train_hybrid | step   50449 | ep   200 | succ 0.00 coll 0.78 tout 0.22 | ret  -23.8 | eps 0.68 diff 0.28 | loss 0.0215 q 2.68 | 201 sps
+18:43:30 | INFO    | train_hybrid | step   59721 | ep   250 | succ 0.05 coll 0.81 tout 0.14 | ret  -20.7 | eps 0.62 diff 0.33 | loss 0.0098 q 1.60 | 201 sps
+18:43:51 | INFO    | train_hybrid | EVAL @60000 (medium x40): success 0.23 collision 0.38 timeout 0.40 eff 0.79
+18:43:51 | INFO    | train_hybrid |   new best checkpoint (step 60000)
+18:44:55 | INFO    | train_hybrid | step   72416 | ep   300 | succ 0.29 coll 0.58 tout 0.13 | ret    2.1 | eps 0.54 diff 0.40 | loss 0.0067 q 1.35 | 190 sps
+18:45:48 | INFO    | train_hybrid | EVAL @80000 (medium x40): success 0.75 collision 0.12 timeout 0.12 eff 0.96
+18:45:48 | INFO    | train_hybrid |   new best checkpoint (step 80000)
+18:45:53 | INFO    | train_hybrid | step   81210 | ep   350 | succ 0.63 coll 0.27 tout 0.10 | ret   24.6 | eps 0.49 diff 0.45 | loss 0.0055 q 1.41 | 185 sps
+18:46:36 | INFO    | train_hybrid | step   89749 | ep   400 | succ 0.81 coll 0.17 tout 0.02 | ret   32.6 | eps 0.43 diff 0.50 | loss 0.0055 q 1.55 | 186 sps
+18:47:16 | INFO    | train_hybrid | step   97665 | ep   450 | succ 0.85 coll 0.14 tout 0.01 | ret   34.7 | eps 0.38 diff 0.54 | loss 0.0053 q 1.63 | 187 sps
+18:47:40 | INFO    | train_hybrid | EVAL @100000 (medium x40): success 0.85 collision 0.10 timeout 0.05 eff 0.96
+18:47:40 | INFO    | train_hybrid |   new best checkpoint (step 100000)
+18:48:05 | INFO    | train_hybrid | step  104761 | ep   500 | succ 0.81 coll 0.19 tout 0.00 | ret   32.2 | eps 0.34 diff 0.58 | loss 0.0062 q 1.65 | 183 sps
+18:48:45 | INFO    | train_hybrid | step  112168 | ep   550 | succ 0.78 coll 0.22 tout 0.00 | ret   30.6 | eps 0.29 diff 0.62 | loss 0.0062 q 1.65 | 183 sps
+18:49:25 | INFO    | train_hybrid | step  119290 | ep   600 | succ 0.80 coll 0.20 tout 0.00 | ret   32.3 | eps 0.24 diff 0.66 | loss 0.0068 q 1.67 | 183 sps
+18:49:39 | INFO    | train_hybrid | EVAL @120000 (medium x40): success 0.80 collision 0.20 timeout 0.00 eff 0.98
+18:50:16 | INFO    | train_hybrid | step  126384 | ep   650 | succ 0.82 coll 0.17 tout 0.01 | ret   33.7 | eps 0.20 diff 0.70 | loss 0.0068 q 1.69 | 180 sps
+18:50:53 | INFO    | train_hybrid | step  132562 | ep   700 | succ 0.76 coll 0.23 tout 0.01 | ret   30.2 | eps 0.16 diff 0.74 | loss 0.0072 q 1.72 | 179 sps
+18:51:32 | INFO    | train_hybrid | step  138883 | ep   750 | succ 0.70 coll 0.30 tout 0.00 | ret   26.8 | eps 0.12 diff 0.77 | loss 0.0062 q 1.71 | 178 sps
+18:51:51 | INFO    | train_hybrid | EVAL @140000 (medium x40): success 0.85 collision 0.10 timeout 0.05 eff 0.97
+18:52:27 | INFO    | train_hybrid | step  145926 | ep   800 | succ 0.79 coll 0.20 tout 0.01 | ret   32.0 | eps 0.08 diff 0.81 | loss 0.0071 q 1.71 | 175 sps
+18:53:06 | INFO    | train_hybrid | step  152145 | ep   850 | succ 0.79 coll 0.19 tout 0.02 | ret   33.1 | eps 0.05 diff 0.85 | loss 0.0078 q 1.71 | 174 sps
+18:53:46 | INFO    | train_hybrid | step  158798 | ep   900 | succ 0.76 coll 0.23 tout 0.01 | ret   32.0 | eps 0.05 diff 0.88 | loss 0.0091 q 1.72 | 174 sps
+18:54:05 | INFO    | train_hybrid | EVAL @160000 (medium x40): success 0.90 collision 0.10 timeout 0.00 eff 0.96
+18:54:05 | INFO    | train_hybrid |   new best checkpoint (step 160000)
+18:54:38 | INFO    | train_hybrid | step  165468 | ep   950 | succ 0.79 coll 0.21 tout 0.00 | ret   32.8 | eps 0.05 diff 0.92 | loss 0.0089 q 1.72 | 172 sps
+18:55:18 | INFO    | train_hybrid | step  171757 | ep  1000 | succ 0.75 coll 0.25 tout 0.00 | ret   30.5 | eps 0.05 diff 0.95 | loss 0.0092 q 1.73 | 171 sps
+18:55:55 | INFO    | train_hybrid | step  177851 | ep  1050 | succ 0.70 coll 0.29 tout 0.01 | ret   28.9 | eps 0.05 diff 0.99 | loss 0.0101 q 1.75 | 171 sps
+18:56:19 | INFO    | train_hybrid | EVAL @180000 (medium x40): success 0.82 collision 0.15 timeout 0.03 eff 0.96
+18:56:45 | INFO    | train_hybrid | step  184224 | ep  1100 | succ 0.76 coll 0.23 tout 0.01 | ret   32.2 | eps 0.05 diff 1.00 | loss 0.0110 q 1.79 | 169 sps
+18:57:24 | INFO    | train_hybrid | step  190268 | ep  1150 | succ 0.74 coll 0.25 tout 0.01 | ret   29.4 | eps 0.05 diff 1.00 | loss 0.0102 q 1.78 | 168 sps
+18:58:03 | INFO    | train_hybrid | step  196542 | ep  1200 | succ 0.65 coll 0.33 tout 0.02 | ret   24.6 | eps 0.05 diff 1.00 | loss 0.0120 q 1.82 | 168 sps
+18:58:37 | INFO    | train_hybrid | EVAL @200000 (medium x40): success 0.72 collision 0.28 timeout 0.00 eff 0.93
+18:58:55 | INFO    | train_hybrid | step  202834 | ep  1250 | succ 0.63 coll 0.35 tout 0.02 | ret   23.7 | eps 0.05 diff 1.00 | loss 0.0116 q 1.86 | 166 sps
+18:59:39 | INFO    | train_hybrid | step  209931 | ep  1300 | succ 0.64 coll 0.34 tout 0.02 | ret   22.5 | eps 0.05 diff 1.00 | loss 0.0121 q 1.81 | 166 sps
+19:00:26 | INFO    | train_hybrid | step  217455 | ep  1350 | succ 0.76 coll 0.22 tout 0.02 | ret   29.7 | eps 0.05 diff 1.00 | loss 0.0106 q 1.78 | 166 sps
+19:00:54 | INFO    | train_hybrid | EVAL @220000 (medium x40): success 0.93 collision 0.07 timeout 0.00 eff 0.96
+19:00:54 | INFO    | train_hybrid |   new best checkpoint (step 220000)
+19:01:14 | INFO    | train_hybrid | step  223180 | ep  1400 | succ 0.80 coll 0.19 tout 0.01 | ret   33.9 | eps 0.05 diff 1.00 | loss 0.0098 q 1.77 | 164 sps
+19:01:56 | INFO    | train_hybrid | step  229639 | ep  1450 | succ 0.81 coll 0.19 tout 0.00 | ret   34.7 | eps 0.05 diff 1.00 | loss 0.0087 q 1.77 | 164 sps
+19:02:40 | INFO    | train_hybrid | step  236652 | ep  1500 | succ 0.78 coll 0.21 tout 0.01 | ret   34.3 | eps 0.05 diff 1.00 | loss 0.0109 q 1.78 | 164 sps
+19:03:13 | INFO    | train_hybrid | EVAL @240000 (medium x40): success 0.95 collision 0.03 timeout 0.03 eff 0.97
+19:03:13 | INFO    | train_hybrid |   new best checkpoint (step 240000)
+19:03:31 | INFO    | train_hybrid | step  242857 | ep  1550 | succ 0.74 coll 0.24 tout 0.02 | ret   31.7 | eps 0.05 diff 1.00 | loss 0.0102 q 1.77 | 162 sps
+19:04:13 | INFO    | train_hybrid | step  249286 | ep  1600 | succ 0.77 coll 0.21 tout 0.02 | ret   32.3 | eps 0.05 diff 1.00 | loss 0.0115 q 1.76 | 162 sps
+19:04:54 | INFO    | train_hybrid | step  255831 | ep  1650 | succ 0.77 coll 0.22 tout 0.01 | ret   33.2 | eps 0.05 diff 1.00 | loss 0.0105 q 1.77 | 162 sps
+19:05:32 | INFO    | train_hybrid | EVAL @260000 (medium x40): success 0.90 collision 0.10 timeout 0.00 eff 0.96
+19:05:45 | INFO    | train_hybrid | step  261955 | ep  1700 | succ 0.75 coll 0.24 tout 0.01 | ret   32.8 | eps 0.05 diff 1.00 | loss 0.0114 q 1.77 | 161 sps
+19:06:31 | INFO    | train_hybrid | step  268923 | ep  1750 | succ 0.74 coll 0.22 tout 0.04 | ret   31.3 | eps 0.05 diff 1.00 | loss 0.0102 q 1.77 | 160 sps
+19:07:10 | INFO    | train_hybrid | step  275088 | ep  1800 | succ 0.82 coll 0.15 tout 0.03 | ret   34.4 | eps 0.05 diff 1.00 | loss 0.0129 q 1.78 | 160 sps
+19:07:51 | INFO    | train_hybrid | EVAL @280000 (medium x40): success 0.88 collision 0.10 timeout 0.03 eff 0.98
+19:08:01 | INFO    | train_hybrid | step  281506 | ep  1850 | succ 0.81 coll 0.18 tout 0.01 | ret   34.5 | eps 0.05 diff 1.00 | loss 0.0127 q 1.77 | 159 sps
+19:08:43 | INFO    | train_hybrid | step  288055 | ep  1900 | succ 0.75 coll 0.23 tout 0.02 | ret   32.1 | eps 0.05 diff 1.00 | loss 0.0114 q 1.78 | 159 sps
+19:09:28 | INFO    | train_hybrid | step  295183 | ep  1950 | succ 0.80 coll 0.16 tout 0.04 | ret   34.5 | eps 0.05 diff 1.00 | loss 0.0128 q 1.77 | 159 sps
+19:10:09 | INFO    | train_hybrid | EVAL @300000 (medium x40): success 0.95 collision 0.05 timeout 0.00 eff 0.97
+19:10:09 | INFO    | train_hybrid | done in 31.6 min | best eval success 0.95 @ step 240000
+19:10:09 | INFO    | train_hybrid | best checkpoint: runs/train_hybrid_v2/checkpoints/best.pt
+19:10:09 | INFO    | train_hybrid | best eval: {'success_rate': 0.95, 'collision_rate': 0.025, 'step': 240000}

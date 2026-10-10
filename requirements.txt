@@ -1,0 +1,6 @@
+numpy>=1.26
+opencv-python>=4.8
+torch>=2.2
+PyYAML>=6.0
+matplotlib>=3.8
+pytest>=8.0

@@ -1,0 +1,185 @@
+{
+  "seed": 0,
+  "world": {
+    "size": [
+      32.0,
+      32.0,
+      12.0
+    ],
+    "resolution": 1.0,
+    "static": {
+      "building_prob": 0.6,
+      "building_footprint": [
+        1.5,
+        4.5
+      ],
+      "building_height": [
+        3.0,
+        10.0
+      ],
+      "block_footprint": [
+        1.5,
+        4.0
+      ],
+      "block_height": [
+        1.5,
+        3.5
+      ]
+    },
+    "dynamic": {
+      "radius": [
+        0.5,
+        0.9
+      ],
+      "speed": [
+        1.5,
+        3.0
+      ],
+      "wander": 0.5,
+      "corridor_bias": 0.75,
+      "corridor_sigma": 2.5
+    },
+    "start_goal": {
+      "min_distance": 20.0,
+      "clearance": 2.0,
+      "zone_depth": 3.0,
+      "dynamic_keepout": 4.0,
+      "max_attempts": 40
+    }
+  },
+  "scenarios": {
+    "easy": {
+      "static": 14,
+      "dynamic": 0
+    },
+    "medium": {
+      "static": 24,
+      "dynamic": 6
+    },
+    "hard": {
+      "static": 34,
+      "dynamic": 12
+    }
+  },
+  "curriculum": {
+    "static": [
+      6,
+      28
+    ],
+    "dynamic": [
+      0,
+      8
+    ]
+  },
+  "drone": {
+    "radius": 0.3,
+    "max_speed": 3.0,
+    "max_accel": 6.0,
+    "dt": 0.1
+  },
+  "sensors": {
+    "camera": {
+      "width": 40,
+      "height": 24,
+      "hfov_deg": 100.0,
+      "vfov_deg": 60.0,
+      "max_range": 10.0,
+      "noise_std": 0.03,
+      "dropout": 0.005
+    },
+    "rangefinder": {
+      "max_range": 10.0,
+      "noise_std": 0.03
+    }
+  },
+  "vision": {
+    "danger_range": 5.0,
+    "min_blob_area": 3,
+    "median_ksize": 3,
+    "pool_grid": [
+      3,
+      5
+    ]
+  },
+  "task": {
+    "goal_radius": 1.0,
+    "max_steps": 400,
+    "near_miss": 0.5
+  },
+  "planner": {
+    "inflation": 1.0,
+    "heuristic_weight": 1.2,
+    "perception": "sensed",
+    "static_filter_margin": 0.75,
+    "dynamic_ttl": 1.2,
+    "dynamic_inflate": 1.5,
+    "dynamic_depth": 0.5,
+    "replan_interval": 5,
+    "lookahead": 2.5,
+    "cruise_speed": 3.0,
+    "deviation_replan": 2.5,
+    "safety": {
+      "enabled": true,
+      "margin": 0.5,
+      "brake_decel": 4.5,
+      "repulse_range": 0.9,
+      "repulse_gain": 2.0
+    }
+  },
+  "guidance": {
+    "inflation": 1.6,
+    "lookahead": 4.0,
+    "deviation_replan": 3.0
+  },
+  "rl": {
+    "hidden": [
+      256,
+      256
+    ],
+    "gamma": 0.99,
+    "n_step": 3,
+    "lr": 0.0005,
+    "lr_end": 5e-05,
+    "batch_size": 128,
+    "buffer_size": 200000,
+    "learning_starts": 5000,
+    "train_every": 2,
+    "target_tau": 0.01,
+    "grad_clip": 10.0,
+    "eps": {
+      "start": 1.0,
+      "end": 0.05,
+      "decay_frac": 0.5
+    },
+    "total_steps": 300000,
+    "curriculum_frac": 0.6,
+    "eval_every": 20000,
+    "eval_episodes": 40,
+    "eval_scenario": "medium",
+    "log_every_episodes": 50,
+    "reward": {
+      "progress": 1.0,
+      "step": 0.02,
+      "proximity": 0.3,
+      "safe_dist": 1.0,
+      "collision": 15.0,
+      "goal": 15.0,
+      "timeout": 2.0,
+      "scale": 0.1
+    }
+  },
+  "eval": {
+    "episodes": 100,
+    "seed_offset": 20000
+  },
+  "viz": {
+    "width": 1360,
+    "height": 760,
+    "fps": 20,
+    "trail_length": 200,
+    "orbit_azimuth_deg": 35.0,
+    "orbit_elevation_deg": 32.0,
+    "orbit_speed_deg_per_s": 6.0,
+    "show_rays": true
+  }
+}

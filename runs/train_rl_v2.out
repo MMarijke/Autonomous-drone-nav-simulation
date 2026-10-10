@@ -1,0 +1,65 @@
+18:30:22 | INFO    | train_rl | run directory: runs/train_rl_v2
+18:30:24 | INFO    | train_rl | training rl | obs_dim=60 actions=19 steps=300000 params=149780
+18:31:58 | INFO    | train_rl | step   14498 | ep    50 | succ 0.00 coll 0.52 tout 0.48 | ret  -12.7 | eps 0.91 diff 0.08 | loss 0.0016 q 0.53 | 153 sps
+18:32:57 | INFO    | train_rl | EVAL @20000 (medium x40): success 0.05 collision 0.70 timeout 0.25 eff 0.93
+18:32:57 | INFO    | train_rl |   new best checkpoint (step 20000)
+18:34:01 | INFO    | train_rl | step   28487 | ep   100 | succ 0.02 coll 0.55 tout 0.43 | ret   -8.9 | eps 0.82 diff 0.16 | loss 0.0033 q 1.07 | 131 sps
+18:36:12 | INFO    | train_rl | EVAL @40000 (medium x40): success 0.23 collision 0.70 timeout 0.07 eff 0.73
+18:36:12 | INFO    | train_rl |   new best checkpoint (step 40000)
+18:36:25 | INFO    | train_rl | step   42779 | ep   150 | succ 0.10 coll 0.50 tout 0.40 | ret    0.6 | eps 0.73 diff 0.24 | loss 0.0082 q 1.43 | 118 sps
+18:37:15 | INFO    | train_rl | step   51054 | ep   200 | succ 0.10 coll 0.64 tout 0.26 | ret   -5.3 | eps 0.68 diff 0.28 | loss 0.0280 q 2.11 | 124 sps
+18:38:44 | INFO    | train_rl | EVAL @60000 (medium x40): success 0.00 collision 0.25 timeout 0.75 eff nan
+18:38:49 | INFO    | train_rl | step   61115 | ep   250 | succ 0.02 coll 0.85 tout 0.13 | ret  -20.9 | eps 0.61 diff 0.34 | loss 0.0210 q 2.34 | 121 sps
+18:40:01 | INFO    | train_rl | step   75388 | ep   300 | succ 0.00 coll 0.73 tout 0.27 | ret  -16.0 | eps 0.52 diff 0.42 | loss 0.0102 q 1.92 | 131 sps
+18:40:39 | INFO    | train_rl | EVAL @80000 (medium x40): success 0.15 collision 0.57 timeout 0.28 eff 0.84
+18:41:03 | INFO    | train_rl | step   84871 | ep   350 | succ 0.09 coll 0.63 tout 0.28 | ret   -2.3 | eps 0.46 diff 0.47 | loss 0.0079 q 1.41 | 133 sps
+18:41:45 | INFO    | train_rl | step   93153 | ep   400 | succ 0.31 coll 0.60 tout 0.09 | ret    7.4 | eps 0.41 diff 0.52 | loss 0.0081 q 1.31 | 137 sps
+18:42:31 | INFO    | train_rl | EVAL @100000 (medium x40): success 0.60 collision 0.35 timeout 0.05 eff 0.87
+18:42:31 | INFO    | train_rl |   new best checkpoint (step 100000)
+18:42:32 | INFO    | train_rl | step  100276 | ep   450 | succ 0.48 coll 0.52 tout 0.00 | ret   14.9 | eps 0.36 diff 0.56 | loss 0.0083 q 1.34 | 138 sps
+18:43:17 | INFO    | train_rl | step  108915 | ep   500 | succ 0.59 coll 0.38 tout 0.03 | ret   21.1 | eps 0.31 diff 0.61 | loss 0.0097 q 1.39 | 141 sps
+18:43:50 | INFO    | train_rl | step  114955 | ep   550 | succ 0.59 coll 0.38 tout 0.03 | ret   19.7 | eps 0.27 diff 0.64 | loss 0.0110 q 1.45 | 143 sps
+18:44:32 | INFO    | train_rl | EVAL @120000 (medium x40): success 0.68 collision 0.25 timeout 0.07 eff 0.84
+18:44:32 | INFO    | train_rl |   new best checkpoint (step 120000)
+18:44:42 | INFO    | train_rl | step  121811 | ep   600 | succ 0.47 coll 0.50 tout 0.03 | ret   11.2 | eps 0.23 diff 0.68 | loss 0.0122 q 1.52 | 142 sps
+18:45:33 | INFO    | train_rl | step  130570 | ep   650 | succ 0.50 coll 0.44 tout 0.06 | ret   10.7 | eps 0.17 diff 0.73 | loss 0.0095 q 1.50 | 144 sps
+18:46:17 | INFO    | train_rl | step  138110 | ep   700 | succ 0.66 coll 0.29 tout 0.05 | ret   20.2 | eps 0.13 diff 0.77 | loss 0.0097 q 1.47 | 145 sps
+18:46:38 | INFO    | train_rl | EVAL @140000 (medium x40): success 0.68 collision 0.30 timeout 0.03 eff 0.87
+18:47:06 | INFO    | train_rl | step  144736 | ep   750 | succ 0.64 coll 0.33 tout 0.03 | ret   23.8 | eps 0.08 diff 0.80 | loss 0.0106 q 1.51 | 144 sps
+18:47:54 | INFO    | train_rl | step  152816 | ep   800 | succ 0.51 coll 0.44 tout 0.05 | ret   19.6 | eps 0.05 diff 0.85 | loss 0.0113 q 1.52 | 146 sps
+18:48:35 | INFO    | train_rl | step  159640 | ep   850 | succ 0.56 coll 0.38 tout 0.06 | ret   21.1 | eps 0.05 diff 0.89 | loss 0.0111 q 1.51 | 146 sps
+18:48:45 | INFO    | train_rl | EVAL @160000 (medium x40): success 0.60 collision 0.40 timeout 0.00 eff 0.94
+18:49:17 | INFO    | train_rl | step  165302 | ep   900 | succ 0.64 coll 0.34 tout 0.02 | ret   23.8 | eps 0.05 diff 0.92 | loss 0.0106 q 1.51 | 146 sps
+18:50:01 | INFO    | train_rl | step  172599 | ep   950 | succ 0.68 coll 0.31 tout 0.01 | ret   26.0 | eps 0.05 diff 0.96 | loss 0.0100 q 1.50 | 147 sps
+18:50:41 | INFO    | train_rl | step  179263 | ep  1000 | succ 0.75 coll 0.24 tout 0.01 | ret   29.3 | eps 0.05 diff 1.00 | loss 0.0105 q 1.51 | 147 sps
+18:50:56 | INFO    | train_rl | EVAL @180000 (medium x40): success 0.72 collision 0.25 timeout 0.03 eff 0.94
+18:50:56 | INFO    | train_rl |   new best checkpoint (step 180000)
+18:51:30 | INFO    | train_rl | step  185597 | ep  1050 | succ 0.76 coll 0.23 tout 0.01 | ret   29.0 | eps 0.05 diff 1.00 | loss 0.0089 q 1.52 | 147 sps
+18:52:04 | INFO    | train_rl | step  191250 | ep  1100 | succ 0.70 coll 0.29 tout 0.01 | ret   25.4 | eps 0.05 diff 1.00 | loss 0.0094 q 1.52 | 147 sps
+18:52:40 | INFO    | train_rl | step  197395 | ep  1150 | succ 0.61 coll 0.38 tout 0.01 | ret   21.1 | eps 0.05 diff 1.00 | loss 0.0104 q 1.52 | 148 sps
+18:53:06 | INFO    | train_rl | EVAL @200000 (medium x40): success 0.72 collision 0.28 timeout 0.00 eff 0.95
+18:53:25 | INFO    | train_rl | step  203124 | ep  1200 | succ 0.60 coll 0.39 tout 0.01 | ret   20.7 | eps 0.05 diff 1.00 | loss 0.0114 q 1.52 | 147 sps
+18:54:07 | INFO    | train_rl | step  209939 | ep  1250 | succ 0.64 coll 0.32 tout 0.04 | ret   21.1 | eps 0.05 diff 1.00 | loss 0.0125 q 1.51 | 148 sps
+18:54:46 | INFO    | train_rl | step  216378 | ep  1300 | succ 0.66 coll 0.29 tout 0.05 | ret   22.8 | eps 0.05 diff 1.00 | loss 0.0109 q 1.52 | 148 sps
+18:55:17 | INFO    | train_rl | EVAL @220000 (medium x40): success 0.70 collision 0.28 timeout 0.03 eff 0.95
+18:55:33 | INFO    | train_rl | step  222528 | ep  1350 | succ 0.66 coll 0.32 tout 0.02 | ret   24.7 | eps 0.05 diff 1.00 | loss 0.0122 q 1.53 | 147 sps
+18:56:15 | INFO    | train_rl | step  229299 | ep  1400 | succ 0.71 coll 0.28 tout 0.01 | ret   26.2 | eps 0.05 diff 1.00 | loss 0.0120 q 1.53 | 148 sps
+18:56:55 | INFO    | train_rl | step  235694 | ep  1450 | succ 0.77 coll 0.23 tout 0.00 | ret   29.2 | eps 0.05 diff 1.00 | loss 0.0132 q 1.53 | 148 sps
+18:57:31 | INFO    | train_rl | EVAL @240000 (medium x40): success 0.82 collision 0.17 timeout 0.00 eff 0.96
+18:57:31 | INFO    | train_rl |   new best checkpoint (step 240000)
+18:57:41 | INFO    | train_rl | step  241786 | ep  1500 | succ 0.74 coll 0.26 tout 0.00 | ret   28.8 | eps 0.05 diff 1.00 | loss 0.0131 q 1.55 | 148 sps
+18:58:21 | INFO    | train_rl | step  248179 | ep  1550 | succ 0.71 coll 0.28 tout 0.01 | ret   26.6 | eps 0.05 diff 1.00 | loss 0.0134 q 1.56 | 148 sps
+18:58:57 | INFO    | train_rl | step  254260 | ep  1600 | succ 0.73 coll 0.26 tout 0.01 | ret   27.1 | eps 0.05 diff 1.00 | loss 0.0133 q 1.57 | 148 sps
+18:59:41 | INFO    | train_rl | EVAL @260000 (medium x40): success 0.75 collision 0.25 timeout 0.00 eff 0.93
+18:59:47 | INFO    | train_rl | step  261023 | ep  1650 | succ 0.76 coll 0.23 tout 0.01 | ret   28.6 | eps 0.05 diff 1.00 | loss 0.0131 q 1.58 | 148 sps
+19:00:29 | INFO    | train_rl | step  267815 | ep  1700 | succ 0.70 coll 0.28 tout 0.02 | ret   25.8 | eps 0.05 diff 1.00 | loss 0.0146 q 1.57 | 148 sps
+19:01:10 | INFO    | train_rl | step  274621 | ep  1750 | succ 0.69 coll 0.30 tout 0.01 | ret   25.5 | eps 0.05 diff 1.00 | loss 0.0128 q 1.55 | 149 sps
+19:01:54 | INFO    | train_rl | EVAL @280000 (medium x40): success 0.78 collision 0.23 timeout 0.00 eff 0.94
+19:01:59 | INFO    | train_rl | step  280880 | ep  1800 | succ 0.74 coll 0.26 tout 0.00 | ret   27.8 | eps 0.05 diff 1.00 | loss 0.0147 q 1.57 | 148 sps
+19:02:40 | INFO    | train_rl | step  287662 | ep  1850 | succ 0.79 coll 0.21 tout 0.00 | ret   30.7 | eps 0.05 diff 1.00 | loss 0.0144 q 1.57 | 149 sps
+19:03:19 | INFO    | train_rl | step  294109 | ep  1900 | succ 0.80 coll 0.20 tout 0.00 | ret   31.0 | eps 0.05 diff 1.00 | loss 0.0131 q 1.56 | 149 sps
+19:04:06 | INFO    | train_rl | EVAL @300000 (medium x40): success 0.82 collision 0.15 timeout 0.03 eff 0.95
+19:04:06 | INFO    | train_rl |   new best checkpoint (step 300000)
+19:04:06 | INFO    | train_rl | done in 33.7 min | best eval success 0.82 @ step 300000
+19:04:06 | INFO    | train_rl | best checkpoint: runs/train_rl_v2/checkpoints/best.pt
+19:04:06 | INFO    | train_rl | best eval: {'success_rate': 0.825, 'collision_rate': 0.15, 'step': 300000}

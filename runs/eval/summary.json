@@ -1,0 +1,226 @@
+{
+  "astar": {
+    "easy": {
+      "n": 200,
+      "success_rate": 1.0,
+      "collision_rate": 0.0,
+      "timeout_rate": 0.0,
+      "path_efficiency": 0.9992646177471494,
+      "time_to_goal_s": 10.33799999999998,
+      "path_length_m": 29.339070261415955,
+      "mean_speed": 2.8439661581444584,
+      "min_clearance_m": 0.8879070542627937,
+      "near_miss_rate": 0.11,
+      "decision_ms": 0.5867425546399623,
+      "replans_per_episode": 5.91,
+      "success_ci": [
+        0.9811539940816791,
+        1.0
+      ]
+    },
+    "medium": {
+      "n": 200,
+      "success_rate": 0.975,
+      "collision_rate": 0.025,
+      "timeout_rate": 0.0,
+      "path_efficiency": 0.9887345465013208,
+      "time_to_goal_s": 10.847692307692284,
+      "path_length_m": 30.64724188748258,
+      "mean_speed": 2.833567819381209,
+      "min_clearance_m": 0.5928277912365665,
+      "near_miss_rate": 0.38,
+      "decision_ms": 0.7546512577302914,
+      "replans_per_episode": 7.95,
+      "success_ci": [
+        0.9428208558483829,
+        0.9892754385292123
+      ]
+    },
+    "hard": {
+      "n": 200,
+      "success_rate": 0.91,
+      "collision_rate": 0.09,
+      "timeout_rate": 0.0,
+      "path_efficiency": 0.9760280334343613,
+      "time_to_goal_s": 11.503846153846128,
+      "path_length_m": 31.998080055638738,
+      "mean_speed": 2.790792161635614,
+      "min_clearance_m": 0.43713184989715176,
+      "near_miss_rate": 0.575,
+      "decision_ms": 0.9106764472312722,
+      "replans_per_episode": 9.4,
+      "success_ci": [
+        0.8622332538615105,
+        0.9423130212854665
+      ]
+    }
+  },
+  "astar_oracle": {
+    "easy": {
+      "n": 200,
+      "success_rate": 1.0,
+      "collision_rate": 0.0,
+      "timeout_rate": 0.0,
+      "path_efficiency": 0.9992646177471494,
+      "time_to_goal_s": 10.33799999999998,
+      "path_length_m": 29.339070261415955,
+      "mean_speed": 2.8439661581444584,
+      "min_clearance_m": 0.8879070542627937,
+      "near_miss_rate": 0.11,
+      "decision_ms": 0.4901476763173794,
+      "replans_per_episode": 5.91,
+      "success_ci": [
+        0.9811539940816791,
+        1.0
+      ]
+    },
+    "medium": {
+      "n": 200,
+      "success_rate": 0.985,
+      "collision_rate": 0.015,
+      "timeout_rate": 0.0,
+      "path_efficiency": 0.997118041258043,
+      "time_to_goal_s": 10.66192893401013,
+      "path_length_m": 30.13063380096281,
+      "mean_speed": 2.832938430374166,
+      "min_clearance_m": 0.6418085850454324,
+      "near_miss_rate": 0.3,
+      "decision_ms": 1.5788550837107982,
+      "replans_per_episode": 7.46,
+      "success_ci": [
+        0.9568335194437211,
+        0.9948858548155076
+      ]
+    },
+    "hard": {
+      "n": 200,
+      "success_rate": 0.965,
+      "collision_rate": 0.035,
+      "timeout_rate": 0.0,
+      "path_efficiency": 0.9889840297978096,
+      "time_to_goal_s": 11.209844559585468,
+      "path_length_m": 31.43000925066679,
+      "mean_speed": 2.8078363332811604,
+      "min_clearance_m": 0.5453453124521965,
+      "near_miss_rate": 0.45,
+      "decision_ms": 2.5908880212365677,
+      "replans_per_episode": 8.93,
+      "success_ci": [
+        0.9295285391333187,
+        0.9829446753626429
+      ]
+    }
+  },
+  "rl": {
+    "easy": {
+      "n": 200,
+      "success_rate": 0.94,
+      "collision_rate": 0.06,
+      "timeout_rate": 0.0,
+      "path_efficiency": 0.9519755659772716,
+      "time_to_goal_s": 12.421276595744656,
+      "path_length_m": 31.97598180002428,
+      "mean_speed": 2.5950376686938896,
+      "min_clearance_m": 0.8554455210374499,
+      "near_miss_rate": 0.33,
+      "decision_ms": 0.5128275178996283,
+      "replans_per_episode": 0.0,
+      "success_ci": [
+        0.8980673646931491,
+        0.9653481500987285
+      ]
+    },
+    "medium": {
+      "n": 200,
+      "success_rate": 0.815,
+      "collision_rate": 0.165,
+      "timeout_rate": 0.02,
+      "path_efficiency": 0.9496174447731954,
+      "time_to_goal_s": 13.012269938650281,
+      "path_length_m": 32.68027765745549,
+      "mean_speed": 2.481035148790834,
+      "min_clearance_m": 0.46591752810109854,
+      "near_miss_rate": 0.55,
+      "decision_ms": 0.5685105111747252,
+      "replans_per_episode": 0.0,
+      "success_ci": [
+        0.7554281794988185,
+        0.8626988367726394
+      ]
+    },
+    "hard": {
+      "n": 200,
+      "success_rate": 0.685,
+      "collision_rate": 0.29,
+      "timeout_rate": 0.025,
+      "path_efficiency": 0.9322951159664593,
+      "time_to_goal_s": 14.291240875912385,
+      "path_length_m": 34.021276903312504,
+      "mean_speed": 2.3688338821893313,
+      "min_clearance_m": 0.27656881329758504,
+      "near_miss_rate": 0.785,
+      "decision_ms": 0.5586032100945159,
+      "replans_per_episode": 0.0,
+      "success_ci": [
+        0.617649158589664,
+        0.7453778192205573
+      ]
+    }
+  },
+  "hybrid": {
+    "easy": {
+      "n": 200,
+      "success_rate": 0.96,
+      "collision_rate": 0.025,
+      "timeout_rate": 0.015,
+      "path_efficiency": 0.9802367056435134,
+      "time_to_goal_s": 11.958333333333309,
+      "path_length_m": 30.776173208589665,
+      "mean_speed": 2.5753539060255646,
+      "min_clearance_m": 0.9957597169128484,
+      "near_miss_rate": 0.165,
+      "decision_ms": 0.6364177653786145,
+      "replans_per_episode": 1.075,
+      "success_ci": [
+        0.9230670617058012,
+        0.9795946128493436
+      ]
+    },
+    "medium": {
+      "n": 200,
+      "success_rate": 0.83,
+      "collision_rate": 0.15,
+      "timeout_rate": 0.02,
+      "path_efficiency": 0.9664796125761985,
+      "time_to_goal_s": 13.059638554216848,
+      "path_length_m": 31.825699555513182,
+      "mean_speed": 2.4447722311781566,
+      "min_clearance_m": 0.6172180971348462,
+      "near_miss_rate": 0.43,
+      "decision_ms": 0.669281619307202,
+      "replans_per_episode": 1.07,
+      "success_ci": [
+        0.7718399896049648,
+        0.8757216464889435
+      ]
+    },
+    "hard": {
+      "n": 200,
+      "success_rate": 0.71,
+      "collision_rate": 0.27,
+      "timeout_rate": 0.02,
+      "path_efficiency": 0.9665370574693259,
+      "time_to_goal_s": 13.471830985915465,
+      "path_length_m": 32.6878413496021,
+      "mean_speed": 2.3608438349002294,
+      "min_clearance_m": 0.3875968184102355,
+      "near_miss_rate": 0.575,
+      "decision_ms": 0.6745467537027371,
+      "replans_per_episode": 1.03,
+      "success_ci": [
+        0.6436239464268834,
+        0.7684607310874219
+      ]
+    }
+  }
+}
